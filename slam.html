@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SummerSlam 25 Padel Edition - Registration</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* Main Content Styles */
+        .intro {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: white;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .intro p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+        
+        .highlight {
+            color: #2a5298;
+            font-weight: bold;
+        }
+        
+        /* Form Styles */
+        .registration-form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        
+        .form-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2a5298;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .submit-btn {
+            background-color: #2a5298;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            display: block;
+            margin: 30px auto 0;
+        }
+        
+        .submit-btn:hover {
+            background-color: #1e3c72;
+        }
+        
+        /* Partners Section */
+        .partners {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            margin: 40px 0;
+        }
+        
+        .partners h3 {
+            margin-bottom: 30px;
+            color: #2a5298;
+        }
+        
+        .partner-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .partner-logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .partner-logo.special {
+            color: #2a5298;
+            font-size: 1.8rem;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+        }
+        
+        .footer-slogan {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+            
+            header h2 {
+                font-size: 1.4rem;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .partner-logos {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .intro p {
+                font-size: 1rem;
+            }
+            
+            .registration-form {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SUMMER SLAM</h1>
+            <h2>PADEL EDITION</h2>
+            <p>Dubai's ultimate padel showdown for corporate teams</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <h2>Summer Slam 2025</h2>
+            <p>Summer Slam 2025 is the ultimate padel showdown for corporate teams, real estate giants and sales professionals in Dubai. Set in the region's best padel venue - <span class="highlight">Padel Edition</span>.</p>
+            <p>Our mission is to create the best annual padel event for all skill levels with great prizes and even better atmosphere.</p>
+        </section>
+        
+        <section class="registration-form">
+            <h3 class="form-title">Contact us</h3>
+            <p style="text-align: center; margin-bottom: 20px;">Interested in padel? Use the form below to get in touch.</p>
+            
+            <form>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mobile">Mobile no:</label>
+                        <input type="tel" id="mobile" name="mobile" required>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+        
+        <section class="partners">
+            <h3>TOURNAMENT PARTNERS</h3>
+            <div class="partner-logos">
+                <div class="partner-logo">Property<br>Finder</div>
+                <div class="partner-logo special">S7 Corporate Culture & Experience</div>
+                <div class="partner-logo">PADEL EDITION</div>
+                <div class="partner-logo">LOVE THE PADEL</div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-slogan">Join the Padel.</div>
+        <p>© 2025 SummerSlam Padel Edition. All rights reserved.</p>
+    </footer>
+</body>
+</html>
